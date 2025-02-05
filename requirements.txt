@@ -1,0 +1,7 @@
+streamlit==1.41.1
+pandas==2.2.3
+python-dotenv==1.0.1
+requests==2.32.3
+beautifulsoup4==4.13.3
+langchain-core==0.3.28 
+langchain-groq==0.2.2 
