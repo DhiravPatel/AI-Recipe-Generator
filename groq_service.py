@@ -6,6 +6,8 @@ import json
 import config
 import re
 
+ChatGroq.model_rebuild()
+
 class GroqService:
     def __init__(self):
         self.llm = ChatGroq(
