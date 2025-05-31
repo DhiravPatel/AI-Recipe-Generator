@@ -11,7 +11,6 @@ class GroqService:
         self.llm = ChatGroq(
             groq_api_key=config.GROQ_API_KEY,
             model=config.MODEL,
-            temperature=0.7,
         )
 
     def generate_recipe(self, recipe_name, num_servings, main_ingredients):
